@@ -1,14 +1,21 @@
 
 // Exercise 1: Calculate the Sum of Two Numbers
 
-Set number1 to first number
-Set number2 to second number
-Assign result to (number1 + number2)
-Return result
+Create variable number1 and assign first number to number1.
+Create variable number2 and assign first number to number2.
+Define variable result  and assign (number1 + number2) to result.
+Return result.
 
 // Exercise 2: Check if a Number is Even or Odd
 
-(Your pseudocode here)
+Create variable number.
+Assign the given number to number.
+Create variable result.
+Assign "odd" to result.
+if number is exactly divisible by 2
+	Assign "even" to result.
+return result
+	
 
 // Exercise 3: 
 Write pseudo code that will perform the following.    
@@ -18,6 +25,47 @@ b) Calculate the average of the five numbers.
 c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
 d) Write out the results found from steps b and c with a message describing what they are
 
-(Your pseudocode here)
+a)
+Set num1 to first number.
+Set num2 to second number.
+Set num3 to third number.
+Set num4 to fourth number.
+Set num5 to fifth number.
+
+b)
+Define variable sum.
+Define variable average.
+Assign (num1 + num2 + num3 + num4 + num5) to sum.
+Assign sum divided by 5 to average.
+Return average.
+
+c)
+//for smallest number
+Create variables current and min.
+Set min = num1.
+Set current = num1.
+Repeat the following process 5 times:
+	if(current < min)
+		Set min = current.
+	Set current to next number in the list.
+Return min.
+
+//for largest number
+Create variables current and max.
+Set max = num1.
+Set current = num1.
+Repeat the following process 5 times:
+	if (current > max)
+		Set max = current.
+	Set current to next number in the list.
+Return max.
+
+d)
+print ("The average of given numbers is", average).
+print ("The smallest of given numbers is", min).
+print("The larges of given numbers is",max). 
+
+
+	
 
 -- END --
